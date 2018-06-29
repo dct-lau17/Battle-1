@@ -4,7 +4,7 @@ class Attack
   end
 
   def self.run(player)
-    new(player).run
+    new(player).run #equivalant to Attack.new?
   end
 
   def run

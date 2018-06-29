@@ -1,7 +1,7 @@
 require "./app.rb"
 
 feature 'Game over' do
-  context 'when Player 1 reaches 0 HP first' do
+  context 'when Player 2 reaches 0 HP first' do
     before do
       sign_in_and_play
       10.times{attack_and_confirm}
